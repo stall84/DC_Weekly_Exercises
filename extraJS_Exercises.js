@@ -135,3 +135,27 @@ function cipher (string, shift) {
 // try using ASCII codes 
 
 // Matrix Multiplication 
+
+
+
+// Write a function numberJoinerWhile given start & end numbers as args.
+// should return string of the numbers joined together by underscore.
+// Use while loop first
+
+function numberJoinerWhile (start, finish) {
+    var joinedNums = '';
+    while (start < finish) {
+        return joinedNums += start + "_";
+        
+    }
+    start++;
+    console.log(joinedNums);
+}
+
+function numberJoinerFor (start, finish) {
+    var joinedNums = '';
+    for (var i = start; i < finish; i++) {
+        joinedNums += i;
+    }
+
+}
